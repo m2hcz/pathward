@@ -1,8 +1,3 @@
-"""pathward - defensive path handling for Python.
-
-Guards against path traversal, symlink escape, Zip Slip, and TOCTOU races.
-"""
-
 from .archive import safe_extract, safe_extract_tar, safe_extract_zip
 from .errors import (
     FileChangedError,
